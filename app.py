@@ -38,8 +38,6 @@ def predict_step(images):
 
   return preds
 
-predict_step(["/content/Image1.png"])
-
 !pip install gradio
 
 import gradio as gr
